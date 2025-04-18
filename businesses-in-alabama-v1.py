@@ -9,8 +9,8 @@ import time
 # Streamlit app title
 st.title("Business Locations Map in Alabama")
 
-# GitHub raw CSV URL (replace with your actual URL)
-CSV_URL = "https://raw.githubusercontent.com/username/business-data/main/data/businesses.csv"
+# GitHub raw CSV URL
+CSV_URL = "https://raw.githubusercontent.com/BurstSoftware/business-mappings-v1/main/data/alabama-businesses.csv"
 
 # Load the CSV data
 @st.cache_data
